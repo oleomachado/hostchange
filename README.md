@@ -41,6 +41,7 @@ So you can create several sections and toggle them using HostChange later. Ex.
 Open command prompt, as Administrator, and execute HostChange.exe.
 
 * HostChange.exe -list
+
 will list all sections configured in your hosts.
 ```
 #Config1 -> Sample Configuration 1
@@ -49,6 +50,7 @@ will list all sections configured in your hosts.
 ```
 
 * HostChange.exe -fulllist
+
 will list all hosts. contents
 ```
 #CFG_START>Config1 [Sample Configuration 1]
@@ -66,4 +68,5 @@ will list all hosts. contents
 ```
 
 * HostChange.exe Config1
+
 Will change the current configuration to **Config1**. You can switch configuration at any time. After HostChange apply the new configuration it will perform a flushdns.
