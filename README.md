@@ -1,10 +1,6 @@
 ﻿# HostChange
 HostChange is a console application to help manage different configurations for a windows hosts file.. 
 
-### How does it work?
-This app will download a list of hosts that are considered malicious, and tells your computer to avoid the connection to them by adding that list to a local file called `hosts`.
-It uses a consolidated hosts list provided by **Steven Black**. You can check his [Github repository](https://github.com/StevenBlack/hosts) for more information.
-
 ### What do I need to run it?
 HostChange is console application that requires a DotNet version 4.7.2+. Given that a system file is modified, **administration privileges** are required too.
 
